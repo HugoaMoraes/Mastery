@@ -1,3 +1,6 @@
+:root {
+	--cor: #37c6f5;
+}
 
 .mu-service-icon-box,
 .mu-team-social-info a:hover,
@@ -11,7 +14,7 @@
 .mu-hero-left .mu-primary-btn:focus,
 .mu-single-counter i,
 .counter-value {
-	color: #37c6f5;
+	color: var(--cor);
 }
 
 .mu-send-msg-btn:hover,
@@ -22,13 +25,13 @@
 .mu-social-media a:focus,
 .mu-order-btn:hover,
 .mu-order-btn:focus {
-	border: 1px solid #37c6f5;
-	color: #37c6f5;
+	border: 1px solid var(--cor);
+	color: var(--cor);
 }
 
 .mu-send-msg-btn {
-	border: 1px solid #37c6f5;
-	background-color: #37c6f5;
+	border: 1px solid var(--cor);
+	background-color: var(--cor);
 }
 
 
@@ -40,13 +43,13 @@
 .mu-author-social a,
 .mu-pricing-content .mu-popular-price-tag,
 #mu-video-review:before  {
-	background-color: #37c6f5;
+	background-color: var(--cor);
 }
 
 .mu-contact-form .form-control:focus,
 .mu-testimonial-slide .slick-dots li button:hover,
 .mu-testimonial-slide .slick-dots li button:focus,
 .mu-testimonial-slide .slick-dots li.slick-active button{
-	border: 1px solid #37c6f5;    
+	border: 1px solid var(--cor);    
 } 
 

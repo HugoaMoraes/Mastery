@@ -174,7 +174,7 @@ button:focus {
   border: solid 1px #ffffff;
   color: #fff;
   display: inline-block;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
   padding: 12px 25px;
@@ -184,8 +184,7 @@ button:focus {
 
 .mu-primary-btn:hover,
 .mu-primary-btn:focus {
-  background-color: #fff;
-  color: #000;
+  transform: scale(1.1);
 }
 
 .mu-send-msg-btn {
@@ -255,8 +254,17 @@ button:focus {
 /* MENU */
 /*--------------------*/
 
+.button-cor1{
+  background-color: transparent;
+}
+.button-cor1:hover{
+  transform: scale(1.2);
+  opacity: 80%;
+}
+
 .navbar-default {
   min-height: auto;
+  color: #fff;
 }
 
 .mu-navbar {
@@ -494,7 +502,7 @@ button:focus {
 /*--------------------*/
 
 #mu-video-review {
-  background-image: url(assets/images/video-review-bg.jpeg);
+  background-image: url(assets/images/bg1.jpg);
   background-attachment: fixed;
   background-size: cover;
   display: inline;
@@ -516,7 +524,7 @@ button:focus {
 .mu-video-review-area {
   display: inline;
   float: left;
-  padding: 150px 0;
+  padding: 100px 0;
   width: 100%;
 }
 
@@ -651,7 +659,6 @@ button:focus {
 .mu-pricing-single-head {
   border-bottom: 1px solid #eee;
   display: inline-block;
-  float: left;
   margin-bottom: 10px;
   width: 100%;
 }
@@ -687,7 +694,6 @@ button:focus {
 
 .mu-pricing-single-footer {
   display: inline-block;
-  float: left;
   width: 100%;
 }
 
@@ -992,7 +998,7 @@ button:focus {
   }
 
   .navbar-default .mu-menu li a {
-    font-size: 14px;
+    font-size: 10px;
     margin: 10px 5px;
   }
 
