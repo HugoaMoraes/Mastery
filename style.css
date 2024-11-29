@@ -577,7 +577,6 @@ button:focus {
 
 .mu-author-image {
   display: inline;
-  float: left;
   width: 100%;
   height: 100%;
   width: 500px;
@@ -1095,6 +1094,7 @@ button:focus {
     padding: 10px 0;
   }
 
+
   .mu-author-sign {
     margin-left: 25%;
   }
@@ -1132,8 +1132,12 @@ button:focus {
   }
 
   .navbar-default .navbar-brand {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: -3px;
+  }
+
+  .mu-hero-left .mu-primary-btn{
+    margin-top: 0;
   }
 
   .navbar-toggle {
