@@ -254,10 +254,10 @@ button:focus {
 /* MENU */
 /*--------------------*/
 
-.button-cor1{
+.button-cor1 {
   background-color: transparent;
 }
-.button-cor1:hover{
+.button-cor1:hover {
   transform: scale(1.2);
   opacity: 80%;
 }
@@ -712,6 +712,15 @@ button:focus {
   text-transform: uppercase;
 }
 
+.disabled {
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  color: #1c1b1b;
+  border: 1px solid #1c1b1b;
+}
+
 .mu-popular-price-tag {
   color: #fff;
 }
@@ -1094,7 +1103,6 @@ button:focus {
     padding: 10px 0;
   }
 
-
   .mu-author-sign {
     margin-left: 25%;
   }
@@ -1136,7 +1144,7 @@ button:focus {
     margin-top: -3px;
   }
 
-  .mu-hero-left .mu-primary-btn{
+  .mu-hero-left .mu-primary-btn {
     margin-top: 0;
   }
 
