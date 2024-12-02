@@ -1,10 +1,4 @@
 /**	
-	* Template Name: Kindle
-	* Version: 1.0	
-	* Template Scripts
-	* Author: MarkUps
-	* Author URI: http://www.markups.io/
-
 	Custom JS
 	
 	1. FIXED MENU

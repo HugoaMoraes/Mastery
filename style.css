@@ -345,6 +345,11 @@ button:focus {
   height: 150px;
 }
 
+.text-p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
 .mu-hero-left p {
   color: #fff;
   margin-bottom: 20px;
@@ -432,6 +437,13 @@ button:focus {
 /*--------------------*/
 
 #mu-book-overview {
+  background-color: #f8f8f8;
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+#mu-book {
   background-color: #f8f8f8;
   display: inline;
   float: left;

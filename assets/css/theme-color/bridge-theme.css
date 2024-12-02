@@ -34,6 +34,14 @@
   background-color: var(--cor);
 }
 
+.mu-book-overview-icon-box a {
+  color: var(--cor);
+}
+
+.mu-book-overview-icon-box a:hover{
+  opacity: 0.8;
+}
+
 #mu-hero,
 .mu-testimonial-slide .slick-dots li button:hover,
 .mu-testimonial-slide .slick-dots li button:focus,

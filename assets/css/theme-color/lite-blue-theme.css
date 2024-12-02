@@ -1,5 +1,5 @@
 :root {
-	--cor: #FF7043;
+  --cor: #ff7043;
 }
 
 .mu-service-icon-box,
@@ -14,26 +14,33 @@
 .mu-hero-left .mu-primary-btn:focus,
 .mu-single-counter i,
 .counter-value {
-	color: var(--cor);
+  color: var(--cor);
 }
 
 .mu-send-msg-btn:hover,
 .mu-send-msg-btn:focus,
 .mu-book-overview-icon-box,
-.mu-social-media a, 
+.mu-social-media a,
 .mu-social-media a:hover,
 .mu-social-media a:focus,
 .mu-order-btn:hover,
 .mu-order-btn:focus {
-	border: 1px solid var(--cor);
-	color: var(--cor);
+  border: 1px solid var(--cor);
+  color: var(--cor);
 }
 
 .mu-send-msg-btn {
-	border: 1px solid var(--cor);
-	background-color: var(--cor);
+  border: 1px solid var(--cor);
+  background-color: var(--cor);
 }
 
+.mu-book-overview-icon-box a {
+  color: var(--cor);
+}
+
+.mu-book-overview-icon-box a:hover {
+  opacity: 0.8;
+}
 
 #mu-hero,
 .mu-testimonial-slide .slick-dots li button:hover,
@@ -42,14 +49,13 @@
 .mu-header-dot,
 .mu-author-social a,
 .mu-pricing-content .mu-popular-price-tag,
-#mu-video-review:before  {
-	background-color: var(--cor);
+#mu-video-review:before {
+  background-color: var(--cor);
 }
 
 .mu-contact-form .form-control:focus,
 .mu-testimonial-slide .slick-dots li button:hover,
 .mu-testimonial-slide .slick-dots li button:focus,
-.mu-testimonial-slide .slick-dots li.slick-active button{
-	border: 1px solid var(--cor);    
-} 
-
+.mu-testimonial-slide .slick-dots li.slick-active button {
+  border: 1px solid var(--cor);
+}
