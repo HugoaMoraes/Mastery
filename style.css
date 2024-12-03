@@ -166,6 +166,13 @@ button:focus {
   text-align: center;
 }
 
+/* ========= SCROLLBAR =========*/
+
+::-webkit-scrollbar {
+  width: 12px;
+  border: 1px solid var(--fullbranco);
+}
+
 /* ========= BUTTON =========*/
 
 .mu-primary-btn {
@@ -345,7 +352,7 @@ button:focus {
   height: 150px;
 }
 
-.text-p{
+.text-p {
   font-size: 25px;
   font-weight: 500;
 }

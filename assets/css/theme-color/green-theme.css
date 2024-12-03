@@ -2,6 +2,11 @@
   --cor: #9575cd;
 }
 
+::-webkit-scrollbar-thumb {
+  background-color: var(--cor);
+  border-radius: 6px;
+}
+
 .mu-service-icon-box,
 .mu-team-social-info a:hover,
 .mu-team-social-info a:focus,

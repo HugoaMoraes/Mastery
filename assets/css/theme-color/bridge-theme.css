@@ -1,5 +1,10 @@
 :root {
-  --cor: #A8E6CF;
+  --cor: #a8e6cf;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--cor);
+  border-radius: 6px;
 }
 
 .mu-service-icon-box,
@@ -38,7 +43,7 @@
   color: var(--cor);
 }
 
-.mu-book-overview-icon-box a:hover{
+.mu-book-overview-icon-box a:hover {
   opacity: 0.8;
 }
 
