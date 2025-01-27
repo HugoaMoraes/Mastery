@@ -435,6 +435,12 @@ button:focus {
   margin-bottom: 10px;
 }
 
+.counter-img{
+  
+  margin: 10px 0 10px;
+  
+}
+
 .mu-counter-name {
   color: #333;
 }
